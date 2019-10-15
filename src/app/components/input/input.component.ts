@@ -9,7 +9,7 @@ import { FormGroup } from '@angular/forms';
       <input
         matInput
         [formControlName]="field.name"
-        placeholder="field.label"
+        [placeholder]="field.label"
         [type]="field.type"
       />
       <ng-container
